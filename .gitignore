@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Python
+# Large datasets
+dataset/*.csv
+# Generated review data
+reports/pending_reviews.json

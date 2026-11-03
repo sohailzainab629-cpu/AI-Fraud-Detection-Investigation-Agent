@@ -1,0 +1,40 @@
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+#root > div {
+  display: flex !important;
+  flex-direction: row !important;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#root aside {
+  position: relative !important;
+  left: auto !important;
+  top: auto !important;
+  flex: 0 0 256px !important;
+  width: 256px !important;
+  min-height: 100vh;
+  height: auto !important;
+}
+
+#root main {
+  flex: 1 1 0% !important;
+  min-width: 0;
+  width: auto !important;
+  margin-left: 0 !important;
+  padding: 32px;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+::selection {
+  background: #2563eb;
+  color: white;
+}

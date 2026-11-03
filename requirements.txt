@@ -1,0 +1,16 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+joblib
+jupyter
+imbalanced-learn
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-groq
+python-dotenv
+pydantic
+python-multipart
